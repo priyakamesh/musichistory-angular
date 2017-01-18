@@ -1,0 +1,8 @@
+<h1>Songs List</h1>
+<input type="text" placeholder="Enter your favourite song" ng-model="searchList" class="inputstyle">
+<ul class="liststyle">
+  <li ng-repeat="songList in songs | filter: searchList"><a href="#/songs/{{songList.id}}">Title :{{songList.title}}</a>
+      <div>Artist: {{songList.artist}} ({{songList.year}})</div>
+  </li>
+</ul>
+<a href="/">Back to main view</a>

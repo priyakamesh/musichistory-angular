@@ -1,0 +1,17 @@
+body {
+  background-color: lightblue
+
+}
+
+.liststyle{
+  list-style: none;
+  text-align: center;
+
+
+}
+.inputstyle {
+  background-color: orange;
+}
+.color {
+  background-color: black;
+}
